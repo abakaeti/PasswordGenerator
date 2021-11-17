@@ -11,8 +11,6 @@ def password_gen():
     # length of password entered by user
     length = int(input("Enter password length: "))
 
-    # A normal password should contain at-least 8 characters
-    # Let's try to specify it
     if length <= 7:
         return print("Enter a number above 8")
 
